@@ -32,31 +32,4 @@ python tools/make_attribute_vocab.py vocab.txt [corpus src file] [corpus tgt fil
 python tools/make_ngram_attribute_vocab.py vocab.txt [corpus src file] [corpus tgt file] [salience ratio] > attribute_vocab.txt
 ```
 
-# Citation
-
-If you use this code as part of your own research can you please cite 
-
-(1) the original paper:
-```
-@inproceedings{li2018transfer,
- author = {Juncen Li and Robin Jia and He He and Percy Liang},
- booktitle = {North American Association for Computational Linguistics (NAACL)},
- title = {Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer},
- url = {https://nlp.stanford.edu/pubs/li2018transfer.pdf},
- year = {2018}
-}
-
-```
-
-(2) The paper that this implementation was developed for:
-```
-@inproceedings{pryzant2020bias,
- author = {Pryzant, Reid and Richard, Diehl Martinez and Dass, Nathan and Kurohashi, Sadao and Jurafsky, Dan and Yang, Diyi},
- booktitle = {Association for the Advancement of Artificial Intelligence (AAAI)},
- link = {https://nlp.stanford.edu/pubs/pryzant2020bias.pdf},
- title = {Automatically Neutralizing Subjective Bias in Text},
- url = {https://nlp.stanford.edu/pubs/pryzant2020bias.pdf},
- year = {2020}
-}
-```
 
